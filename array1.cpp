@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     int n, sum = 0;
     cout << "Enter size of array: ";
     cin >> n;
