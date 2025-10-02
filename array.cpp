@@ -1,4 +1,4 @@
-//program to input 5 integers into an array and display them
+
 #include <iostream>
 using namespace std;
 
