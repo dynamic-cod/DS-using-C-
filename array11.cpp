@@ -16,6 +16,16 @@ int main() {
         arr[i] = arr[n-1-i];
         arr[n-1-i] = temp;
     }
+    /*we can use function also:
+void revArr(int arr[], int size){
+int start =0, end = size-1;
+while(start =< end){
+swap(arr[start], arr[end]);
+start++;
+end++;
+}
+} 
+*/
 
     cout << "Reversed array: ";
     for(int i = 0; i < n; i++) cout << arr[i] << " ";
